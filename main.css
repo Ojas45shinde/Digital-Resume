@@ -1,0 +1,80 @@
+body {
+    color: #9b1818;
+    font-family: 'Arial', sans-serif;
+
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(191, 80, 194);
+
+}
+
+
+.card {
+    background-color: #28c5b0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+ul {
+    padding-left: 1.2rem;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+
+body,
+.card,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+button,
+input,
+textarea {
+    font-family: "Berlin Sans FB", "Times New Roman", serif;
+}
+
+
+
+
+.fixed-name {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "Perpetua Titling MT", serif;
+    z-index: 999;
+}
+
+body {
+    background-color: #1e6ba1;
+    color: rgb(151, 14, 14);
+    font-family: "Perpetua Titling MT", serif;
+}
+
+a {
+    color: rgb(41, 210, 185);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
