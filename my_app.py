@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 from PIL import Image
 
 current_dir=Path(__file__).parent if "_file_" in locals() else Path.cwd()
-css_file=Path(r"C:/Users/acer/Desktop/digital resume/styles/main.css")
+css_file=Path(r"styles/main.css")
 result=current_dir/"assests"/"Ojas resume.pdf"
 profile_pic=current_dir/"assests"/"me.jpg"
 
@@ -226,3 +226,4 @@ hide_st_style="""
             """
 st.markdown(hide_st_style,unsafe_allow_html=True)
 
+#C:/Users/acer/Desktop/digital resume/
